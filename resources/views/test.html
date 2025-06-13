@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Stock</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; color: #333; margin: 0; padding: 0;">
+
+    <div style="display: flex; height: 100vh;">
+        <!-- Sidebar -->
+        <aside style="width: 240px; background-color: #fff; border-right: 1px solid #ddd; padding: 16px;">
+            <div style="font-size: 24px; color: #007bff; font-weight: bold;">DataStock</div>
+            <nav style="margin-top: 32px;">
+                <a href="#" style="display: block; padding: 12px 16px; color: #333; text-decoration: none; border-radius: 8px; margin-bottom: 8px; background-color: #007bff; color: #fff;">Master Stock</a>
+                <a href="#" style="display: block; padding: 12px 16px; color: #333; text-decoration: none; border-radius: 8px; margin-bottom: 8px;">Mutasi Stock</a>
+                <a href="#" style="display: block; padding: 12px 16px; color: #333; text-decoration: none; border-radius: 8px; margin-bottom: 8px;">Card Stock</a>
+                <a href="#" style="display: block; padding: 12px 16px; color: #333; text-decoration: none; border-radius: 8px; margin-bottom: 8px;">Card Stock Detail</a>
+                <a href="#" style="display: block; padding: 12px 16px; color: #333; text-decoration: none; border-radius: 8px; margin-bottom: 8px;">Pesanan User</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main style="flex: 1; display: flex; flex-direction: column; padding: 16px;">
+            <!-- Header -->
+            <header style="display: flex; justify-content: space-between; align-items: center; background-color: #fff; padding: 16px; border-bottom: 1px solid #ddd;">
+                <div>
+                    <input type="text" placeholder="Search" style="padding: 8px; width: 200px; border: 1px solid #ddd; border-radius: 8px;">
+                </div>
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <div style="font-size: 20px;">🔔</div>
+                    <div>🇬🇧 English</div>
+                    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+                        <span>Della</span>
+                        <span style="font-size: 12px; color: #666;">Admin</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Section -->
+            <section style="flex: 1; padding: 16px; background-color: #f9f9f9;">
+                <h2 style="margin-bottom: 16px;">Master Stock</h2>
+                <table style="width: 100%; border-collapse: collapse; background-color: #fff; border-radius: 8px; overflow: hidden;">
+                    <thead>
+                        <tr>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Gambar</th>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Nama Produk</th>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Kode</th>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Kategori</th>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Jumlah</th>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Harga</th>
+                            <th style="padding: 12px; border: 1px solid #ddd; background-color: #f0f0f0; text-align: left;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 12px; border: 1px solid #ddd;"><img src="images/apple-watch.jpg" alt="Apple Watch" style="width: 50px; height: 50px; object-fit: cover; border-radius: 8px;"></td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">Apple Watch Series 4</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">Digital Product</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">Minyak</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">63</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">100.000</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">
+                                <button style="padding: 8px; border: none; border-radius: 4px; background-color: #007bff; color: #fff; cursor: pointer;">✏️</button>
+                                <button style="padding: 8px; border: none; border-radius: 4px; background-color: #dc3545; color: #fff; cursor: pointer;">🗑️</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border: 1px solid #ddd;"><img src="images/microsoft-headset.jpg" alt="Headset" style="width: 50px; height: 50px; object-fit: cover; border-radius: 8px;"></td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">Microsoft Headsquare</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">Digital Product</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">Sandal</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">13</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">100.000</td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">
+                                <button style="padding: 8px; border: none; border-radius: 4px; background-color: #007bff; color: #fff; cursor: pointer;">✏️</button>
+                                <button style="padding: 8px; border: none; border-radius: 4px; background-color: #dc3545; color: #fff; cursor: pointer;">🗑️</button>
+                            </td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+                <div style="margin-top: 16px; text-align: right; font-size: 14px; color: #666;">Showing 1-09 of 78</div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
