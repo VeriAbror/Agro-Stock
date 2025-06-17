@@ -32,7 +32,7 @@
 | **Database**    | MySQL 8                             |
 | **Deployment**  | Laravel Forge / Vapor (recommended) |
 
-📞 Contact
+## 📞 Contact
 <div align="center"> <a href="mailto:veriabror01@gmail.com"> <img src="https://img.shields.io/badge/Email-veriabror01%40gmail.com-blue?style=flat&logo=gmail" alt="Email"> </a> <a href="https://instagram.com/veri_abr"> <img src="https://img.shields.io/badge/Instagram-%40veri__abr-E4405F?style=flat&logo=instagram" alt="Instagram"> </a> <a href="https://github.com/VeriAbror"> <img src="https://img.shields.io/badge/GitHub-VerIAbror-181717?style=flat&logo=github" alt="GitHub"> </a> </div>
 
 ## 🚀 Installation
